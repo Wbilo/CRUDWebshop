@@ -1,0 +1,75 @@
+
+.Categories {
+    margin: 10px; 
+    float: left; 
+    min-height: 100%;
+    position: relative;
+}
+
+.Categories ul { 
+    margin-top: -20px; 
+    padding: 1px;  
+}
+.Categories ul li {
+    list-style-type:none ;
+    margin: 15px; 
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 14px 20px; 
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative; 
+    float: left;  
+   padding: 0px 5px 0px 5px; 
+   
+  }
+  /* gør at knap og dropdown brands har samme width */ 
+  .dropdown * {
+    min-width: 140px;  
+  } 
+
+           
+  .Categories {
+    margin: 0px;  
+    padding: 0px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;  
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 0;
+    opacity: 0.95;
+    border: 1px solid rgb(206, 200, 200);  
+    border-radius: 10px; 
+} 
+  
+  .Categories button { 
+   
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    border-bottom: 1px solid rgb(206, 200, 200);  
+    width: 100%; 
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+      
+  }
+
+  
+   
+  .Categories button:hover {background-color: rgb(179, 177, 177);}   
+  .show {display: block;}    
+ 

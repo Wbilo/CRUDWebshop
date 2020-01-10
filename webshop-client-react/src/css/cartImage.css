@@ -1,0 +1,21 @@
+
+#cartImg {
+  height: 50px;
+  width: 50px;
+}  
+
+#lblCartCount {
+    font-size: 20px;
+    background:lightgreen;
+    color: black;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+    border-radius: 9px; 
+}  
+
+
+#cartImg, 
+#lblCartCount {
+    margin-top: -5px;
+}  
